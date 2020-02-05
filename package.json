@@ -1,7 +1,6 @@
 {
   "name": "beginner-javascript",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +20,7 @@
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "prettier": "^1.19.1"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
