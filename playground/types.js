@@ -1,3 +1,5 @@
+// JAVASCRIPT TYPES: Strings
+// *************************
 // const firstName = 'Jason'
 // const middleName = "Augustus"
 // const lastName = `D'Oyley`
@@ -15,15 +17,28 @@
 // const age = 30;
 // const fullName = "Jason D'Oyley";
 
+// JAVASCRIPT TYPES: Numbers
+// *************************
 // const a = 10;
 // const b = 20;
 
-const skittles = 43;
-const friends = 3;
+// const skittles = 43;
+// const friends = 3;
 
-const eachFriendGets = Math.floor(skittles / friends);
-const leftOvers = skittles % friends;
+// const eachFriendGets = Math.floor(skittles / friends);
+// const leftOvers = skittles % friends;
 
-console.log(
-  `Each friend gets ${eachFriendGets} skittles. And, ${leftOvers} left over for me.`
-);
+// console.log(
+//   `Each friend gets ${eachFriendGets} skittles. And, ${leftOvers} left over for me.`
+// );
+
+// JAVASCRIPT TYPES: Objects
+// *************************
+
+const person = {
+  firstName: 'Jason',
+  lastName: "D'Oyley",
+  email: 'jdoyley@google.com',
+};
+
+console.log(person);
