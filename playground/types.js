@@ -35,10 +35,20 @@
 // JAVASCRIPT TYPES: Objects
 // *************************
 
-const person = {
-  firstName: 'Jason',
-  lastName: "D'Oyley",
-  email: 'jdoyley@google.com',
-};
+// const person = {
+//   firstName: 'Jason',
+//   lastName: "D'Oyley",
+//   email: 'jdoyley@google.com',
+// };
 
-console.log(person);
+// console.log(person);
+
+// JAVASCRIPT TYPES: Null & Undefined
+// **********************************
+
+// undefined
+let username;
+console.log(username);
+
+username = 'alien_coder';
+console.log(username);
