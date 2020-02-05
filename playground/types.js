@@ -47,8 +47,17 @@
 // **********************************
 
 // undefined
-let username;
-console.log(username);
+// let username;
+// console.log(username);
 
-username = 'alien_coder';
-console.log(username);
+// username = 'alien_coder';
+// console.log(username);
+
+// JAVASCRIPT TYPES: Boolean & Equality
+// ************************************
+const isDrawing = false;
+console.log(isDrawing);
+
+const age = 17;
+const ofAge = age > 21;
+console.log(ofAge);
