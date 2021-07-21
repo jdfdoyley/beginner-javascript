@@ -1,0 +1,15 @@
+{
+  "extends": ["wesbos"],
+  "rules": {
+    "no-console": 2,
+    "quotes": ["error", "double", { "allowTemplateLiterals": true }],
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "printWidth": 120,
+        "tabWidth": 8
+      }
+    ]
+  }
+}
